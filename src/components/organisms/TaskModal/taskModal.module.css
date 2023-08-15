@@ -1,0 +1,31 @@
+/* src/components/organisms/TaskModal/taskModal.module.css */
+
+.modalContainer {
+    width: 70%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modalHeader {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.inputTask {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+

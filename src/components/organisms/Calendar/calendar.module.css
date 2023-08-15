@@ -1,0 +1,21 @@
+/* src/components/organisms/Calendar/calendar.module.css */
+
+.calendarContainer {
+    width: 70%; /* 달력이 화면에 70% 차지하도록 설정 */
+    margin: 0 auto; /* 중앙에 배치 */
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.selectedDay {
+    background-color: #3498db;
+    color: white;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.selectedDay:hover {
+    background-color: #2980b9;
+}

@@ -7,10 +7,30 @@
   pointer-events: none;
 }
 
+button:hover {
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0,123,255,.5);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.appContainer {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  height: 100vh;
 }
 
 .App-header {
